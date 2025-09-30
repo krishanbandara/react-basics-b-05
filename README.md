@@ -24,7 +24,12 @@
    git status
 ```
 
-# step 08 : Check the git status 
+# step 08 : git add 
+```bash 
+   git add .
+```
+
+# step 08 : git commit 
 ```bash 
    git add .
 ```
