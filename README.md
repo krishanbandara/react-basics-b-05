@@ -31,7 +31,7 @@
 
 # step 08 : git commit 
 ```bash 
-   git add .
+   git commit -m"Your commit message" .
 ```
 
  
