@@ -98,3 +98,21 @@
    git status
 ```
 
+ # step 19 : Repeat step 08 
+ # step 20 : Proper Commit message 
+
+ ```bash 
+  git commit -m " Update the steps documentation"
+```
+
+# step 21 : Push the changes the existing branch
+
+ ```bash 
+  git push
+```
+
+# step 22 : Create a new branch called `dev` from `main` branch 
+
+ ```bash 
+  git checkout -b dev
+```
