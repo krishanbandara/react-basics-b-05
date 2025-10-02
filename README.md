@@ -157,6 +157,24 @@
   git status 
   git push 
     
+```
+# Config git username and email 
+
+```bash 
+
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
 
 ```
+
+# Check git config 
+
+```bash 
+
+git config user.name
+git config user.email
+
+```
+
+
  
