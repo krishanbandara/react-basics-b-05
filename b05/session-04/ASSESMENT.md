@@ -3,6 +3,9 @@
 ### Questions
 
 1. What are the three states of a `Promise`?
+   * Pending 
+   * FullFill 
+   * Rejected
 2. How does the `async` keyword affect a function's return value?
 3. Explain the purpose of the `await` keyword.
 4. What is a callback function and how is it used in asynchronous operations?
