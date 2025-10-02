@@ -141,5 +141,22 @@
 # Pull the changes to local from remote main branch
   git pull
 
+  git checkout 
+
+  # stash changes temporary   
+  git stash
+
+  # Apply stash changes back
+
+  git stash apply 
+
+  # merge changes in dev branch to main 
+
+  git checkout main 
+  git merge dev
+  git status 
+  git push 
+    
+
 ```
  
