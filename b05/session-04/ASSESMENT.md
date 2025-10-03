@@ -7,6 +7,7 @@
    * FullFill 
    * Rejected
 2. How does the `async` keyword affect a function's return value?
+   * The async keyword makes a function always return a Promise, wrapping returned values in a resolved   Promise and errors in a rejected Promise.
 3. Explain the purpose of the `await` keyword.
 4. What is a callback function and how is it used in asynchronous operations?
 5. Describe the role of the event loop in JavaScript.
