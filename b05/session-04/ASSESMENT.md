@@ -27,16 +27,24 @@ It ensures JavaScript can execute code, handle events, and process async tasks w
 6. Write a function called `delayedGreeting` that takes a name as an argument and logs a greeting message to the console after a 2-second delay using `setTimeout`. Use a callback function to achieve this.
 
 ```bash
-function delayedGreeting(name, callback) {
-  setTimeout(() => {
-    callback(`Hello, ${name}!`);
-  }, 2000);
+function delayedGreeting(callback){
+
+setTimeout(()=>{
+let name ="john";
+callback(name);
+},2000);
+
 }
 
-// Usage:
-delayedGreeting("Krishan", function(message) {
-  console.log(message);
-});
+function greeting(name){
+console.log("wish you",name);
+}
+
+delayedGreeting(greeting);
 
 
 ```
+
+
+
+
