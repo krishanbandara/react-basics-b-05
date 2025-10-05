@@ -5,10 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>External Script Example</title>
     </head>
+
     <body>
         <h1>Hello from HTML!</h1>
 
         <!-- Link to your external JavaScript file -->
         <script src="script.js"></script>
-    </body>
+
+        
+         <script type="module">
+         import {add} from "./math.js";
+         console.log(add(1,2));
+        </script>
+   
+   </body>
     </html>
